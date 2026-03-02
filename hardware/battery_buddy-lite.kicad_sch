@@ -5656,6 +5656,18 @@
 		)
 		(uuid "0f8e723f-c348-4317-ae5a-a54634e2ee06")
 	)
+	(text "Need to sort out these pins"
+		(exclude_from_sim no)
+		(at 228.6 187.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a61d28c-9489-4732-a213-9521c57b6ffd")
+	)
 	(text "+3.3V ±2.5%\n500mA"
 		(exclude_from_sim no)
 		(at 263.398 239.014 0)
@@ -5698,17 +5710,17 @@
 	)
 	(text "Need to sort out these pins"
 		(exclude_from_sim no)
-		(at 239.268 168.91 0)
+		(at 228.346 167.386 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
-			(justify left)
+			(justify left bottom)
 		)
 		(uuid "6a4f14cf-3beb-49de-84ff-99bfaa61ca75")
 	)
-	(text "U4 → offset 'up' ?\nJ2 → Maybe also make right angle?\nR1 → flip to bottom\nU5 → fix/finish footprint\nUSB C is 'difficlult'"
+	(text "U4 → offset 'up' ?\nJ2 → Maybe also make right angle?\nU5 → fix/finish footprint"
 		(exclude_from_sim no)
 		(at 431.292 141.478 0)
 		(effects
@@ -5729,6 +5741,30 @@
 			)
 		)
 		(uuid "6f494923-464c-4e7c-b924-6a22eea81c77")
+	)
+	(text "Need to sort out these pins"
+		(exclude_from_sim no)
+		(at 228.6 172.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bbbb4e8-a3c9-4ff5-b3e9-78198feef78e")
+	)
+	(text "Need to sort out these pins"
+		(exclude_from_sim no)
+		(at 147.574 149.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c349a75-c2b8-4797-887d-824f7b3af006")
 	)
 	(text "External\nCAN Bus\nConnector"
 		(exclude_from_sim no)
@@ -5781,6 +5817,30 @@
 		)
 		(uuid "9ac0f6d9-9f12-41df-9d16-e31162ab57df")
 	)
+	(text "Need to sort out these pins"
+		(exclude_from_sim no)
+		(at 229.108 182.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7677d7b-f7f8-4830-a4da-2775c1f3850f")
+	)
+	(text "Need to sort out these pins"
+		(exclude_from_sim no)
+		(at 228.854 174.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9e2c765-bf84-4872-adab-d3b8dfe5f663")
+	)
 	(text "VESC Express\ncompatible"
 		(exclude_from_sim no)
 		(at 170.688 181.356 0)
@@ -5791,6 +5851,30 @@
 			(justify left)
 		)
 		(uuid "ab904bcf-b24f-4e9b-9d7b-bb50b140474a")
+	)
+	(text "Turns out this has pretty terrible light load efficiencies.\nMay need to rethink this regulator"
+		(exclude_from_sim no)
+		(at 62.23 272.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "aefe831e-0ccd-44fa-9d67-ea16e0c2c487")
+	)
+	(text "Need to sort out these pins"
+		(exclude_from_sim no)
+		(at 228.854 184.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb898f1e-2c54-4821-be32-6f6c1b337849")
 	)
 	(text "I_{q} = 20uA\nEff = ?%"
 		(exclude_from_sim no)
@@ -5833,6 +5917,18 @@
 			)
 		)
 		(uuid "e66c3fee-607e-45a1-855a-93f30e721518")
+	)
+	(text "Need to sort out these pins"
+		(exclude_from_sim no)
+		(at 147.574 147.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "f18e3fc0-239b-4c6c-8d50-3b5e75649808")
 	)
 	(junction
 		(at 189.23 115.57)
@@ -10568,7 +10664,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C963411"
+		(property "LCSC" "C393939"
 			(at 388.62 53.34 0)
 			(effects
 				(font
